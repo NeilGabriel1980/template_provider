@@ -6,8 +6,6 @@ terraform {
   }
 }
 
-}
-
 data "template_file" "greeting" {
   template = file("${path.module}/greetings.tpl")
 
